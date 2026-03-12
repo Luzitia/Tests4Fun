@@ -1,0 +1,160 @@
+body {
+    background-color: #f3fbff;
+}
+
+/* Überschriften */
+
+h1 {
+    font-family: Garmond, serif;
+    font-size: 50px;
+    color: #f3fbff;
+}
+
+.hl {
+    background-color: #90b4da;
+    min-width: 160px;
+    height: 130px;
+    margin-top: 40px;
+    text-align: center;
+    border: #ffffff solid 4px;
+}
+.transparenter-hintergrund{
+    background-color: transparent;
+}
+
+h3 {
+    font-family: Garmond, serif;
+    font-size: 30px;
+    color: #90b4da;
+}
+
+/*Texthintergrund*/
+.text-bg {
+    background-color: rgba(0, 0, 0, 0.45); /* leicht transparent */
+    padding: 4px 8px;
+    border-radius: 6px;
+    display: inline-block;
+}
+
+/* Fragen + Bilder zsm */
+.frage {
+    text-align: center;
+    margin-top: 40px;
+}
+.antwort {
+    width: 180px;
+    height: 220px;
+    border: none;
+    border-radius: 12px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: Garamond, serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 160px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#frage1 .antwort.a { background-image: url("img/extrovert.png"); }
+#frage1 .antwort.b { background-image: url("img/semiextrovertiert.jpg"); }
+#frage1 .antwort.c { background-image: url("img/ambivert.png"); }
+#frage1 .antwort.d { background-image: url("img/semiintrovert.jpg"); }
+#frage1 .antwort.e { background-image: url("img/introvert.jpg"); }
+
+#frage2 .antwort.a { background-image: url("img/passion.jpg"); }
+#frage2 .antwort.b { background-image: url("img/kreativ.jpg"); }
+#frage2 .antwort.c { background-image: url("img/harmony.jpg"); }
+#frage2 .antwort.d { background-image: url("img/empathy.jpg"); }
+#frage2 .antwort.e { background-image: url("img/energetic.jpg"); }
+#frage2 .antwort.f { background-image: url("img/responsible.jpg"); }
+
+#frage3 .antwort.a { background-image: url("img/fire.jpg"); }
+#frage3 .antwort.b { background-image: url("img/cold.jpg"); }
+#frage3 .antwort.c { background-image: url("img/vain.jpg"); }
+#frage3 .antwort.d { background-image: url("img/envy.jpg"); }
+#frage3 .antwort.e { background-image: url("img/dreamy.jpg"); }
+#frage3 .antwort.f { background-image: url("img/narzist.jpg"); }
+#frage3 .antwort.g { background-image: url("img/zwei.jpg"); }
+
+#frage4 .antwort.a { background-image: url("img/mystery.jpg"); }
+#frage4 .antwort.b { background-image: url("img/fantasy.jpg"); }
+#frage4 .antwort.c { background-image: url("img/scifi.jpg"); }
+#frage4 .antwort.d { background-image: url("img/romance.jpg"); }
+#frage4 .antwort.e { background-image: url("img/science.jpg"); }
+#frage4 .antwort.f { background-image: url("img/horror.jpg"); }
+#frage4 .antwort.g { background-image: url("img/comedy.jpg"); }
+
+#frage5 .antwort.a { background-image: url("img/city.jpg"); }
+#frage5 .antwort.b { background-image: url("img/wave.jpg"); }
+#frage5 .antwort.c { background-image: url("img/field.jpg"); }
+#frage5 .antwort.d { background-image: url("img/jungle.png"); }
+#frage5 .antwort.e { background-image: url("img/mountain.jpg"); }
+#frage5 .antwort.f { background-image: url("img/desert.jpg"); }
+#frage5 .antwort.g { background-image: url("img/island.jpg"); }
+
+.antwort:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgb(144, 180, 218);
+}
+
+/* Zurück */
+
+.back {
+    background-color: #90b4da;
+    color: #ffffff;
+    font-family: Garamond, serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    display: block;
+    margin: 40px auto;   /* sorgt für Zentrierung */
+    cursor: pointer;
+}
+
+.back:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgb(185, 206, 236);
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Ergebnis */
+
+.picture{
+    width: 750px;
+    height: 300px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.result{
+    background-color: #ffffff;
+    color: #90b4da;
+    width: 60%;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 10px;
+    border: 3px solid #90b4da;
+    font-family: Garamond, serif;
+    font-size: 18px;
+}
+
+#textErgebnis{
+    background-color: #90b4da;
+    color: #f3fbff;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    display: table;
+    text-align: center;
+    padding: 15px 35px;
+    margin: 20px auto;
+    border-radius: 10px;
+    text-transform: uppercase;
+    box-shadow: 0 0 15px rgb(144, 180, 218);
+}

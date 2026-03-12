@@ -1,0 +1,95 @@
+body {
+    background-color: #f3fbff;
+    text-align: center;
+    font-family: Garamond, serif;
+}
+
+/* Überschrift */
+
+h1 {
+    color: #f3fbff;
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+.hl {
+    background-color: #90b4da;
+    height: 120px;
+    margin-top: 40px;
+    border: white solid 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 45px;
+    margin-top: 0;
+}
+
+/* Infotext Block */
+
+.info-block {
+    background-color: #ffffff;
+    width: 70%;
+    margin: 40px auto;
+    padding: 30px;
+
+    border: 4px solid #90b4da;
+    border-radius: 10px;
+}
+
+/* Text im Infoblock */
+
+.info-block h1 {
+    color: #90b4da;
+    margin-top: 0;
+}
+
+.info-block p {
+    font-size: 20px;
+    color: #90b4da;
+}
+
+/* Testauswahl Block */
+
+.testauswahl {
+    background-color: #90b4da;
+    width: 70%;
+    margin: 40px auto;
+    padding: 30px;
+
+    border: 4px solid #ffffff;
+    border-radius: 10px;
+    color: white;
+}
+
+/* Buttons */
+
+button {
+    background-color: #ffffff;
+    color: #90b4da;
+
+    font-family: Garamond, serif;
+    font-size: 20px;
+
+    border: none;
+    border-radius: 10px;
+
+    padding: 15px 30px;
+    margin: 15px;
+
+    cursor: pointer;
+}
+
+/* Hover Effekt */
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgb(185, 206, 236);
+}
+
+a {
+    text-decoration: none;
+}

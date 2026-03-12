@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>tiertest</title>
+    <style>
+        .frage {
+            display: none;
+        }
+        .sichtbar {
+            display: block;
+        }
+    </style>
+    <link rel="stylesheet" href="tiertest.css">
+</head>
+
+<body>
+<div id="headline" class="hl">
+    <h1>Welches Tier bist du?</h1>
+</div>
+
+<!-- Frage 1 -->
+<div id="frage1" class="frage sichtbar">
+    <h3>Was ist dein Lieblingsurlaubsort?</h3>
+    <button class="antwort a" onclick="antwort('A')">
+        <span class="text-bg">Strand</span>
+    </button>
+    <button class="antwort b" onclick="antwort('B')">
+        <span class="text-bg">Berge</span>
+    </button>
+    <button class="antwort c" onclick="antwort('C')">
+        <span class="text-bg">Stadt</span>
+    </button>
+    <button class="antwort d" onclick="antwort('D')">
+        <span class="text-bg">Bauernhof</span>
+    </button>
+    <button class="antwort e" onclick="antwort('E')">
+        <span class="text-bg">Kreuzfahrt</span>
+    </button>
+    <button class="antwort f" onclick="antwort('F')">
+        <span class="text-bg">Zuhause</span>
+    </button>
+    <button class="antwort g" onclick="antwort('G')">
+        <span class="text-bg">Safari</span>
+    </button>
+</div>
+
+<!-- Frage 2 -->
+<div id="frage2" class="frage">
+    <h3>Welche Art von Essen schmeckt dir am besten?</h3>
+    <button class="antwort a" onclick="antwort('A')">
+        <span class="text-bg">Süß</span>
+    </button>
+    <button class="antwort b" onclick="antwort('B')">
+        <span class="text-bg">Sauer</span>
+    </button>
+    <button class="antwort c" onclick="antwort('C')">
+        <span class="text-bg">Salzig</span>
+    </button>
+    <button class="antwort d" onclick="antwort('D')">
+        <span class="text-bg">Scharf</span>
+    </button>
+    <button class="antwort e" onclick="antwort('E')">
+        <span class="text-bg">Fettig</span>
+    </button>
+    <button class="antwort f" onclick="antwort('F')">
+        <span class="text-bg">Gesund</span>
+    </button>
+</div>
+
+<!-- Frage 3 -->
+<div id="frage3" class="frage">
+    <h3>Welchen ersten Eindruck hast du vermutlich auf Andere?</h3>
+    <button class="antwort a" onclick="antwort('A')">
+        <span class="text-bg">Schüchtern</span>
+    </button>
+    <button class="antwort b" onclick="antwort('B')">
+        <span class="text-bg">Selbstbewusst</span>
+    </button>
+    <button class="antwort c" onclick="antwort('C')">
+        <span class="text-bg">Intelligent</span>
+    </button>
+    <button class="antwort d" onclick="antwort('D')">
+        <span class="text-bg">Eingebildet</span>
+    </button>
+    <button class="antwort e" onclick="antwort('E')">
+        <span class="text-bg">Tollpatschig</span>
+    </button>
+    <button class="antwort f" onclick="antwort('F')">
+        <span class="text-bg">Humorvoll</span>
+    </button>
+</div>
+
+<!-- Frage 4 -->
+<div id="frage4" class="frage">
+    <h3>Wodurch bist du schnell gereizt?</h3>
+    <button class="antwort a" onclick="antwort('A')">
+        <span class="text-bg">Unpünktlichkeit</span>
+    </button>
+    <button class="antwort b" onclick="antwort('B')">
+        <span class="text-bg">Respektlosigkeit</span>
+    </button>
+    <button class="antwort c" onclick="antwort('C')">
+        <span class="text-bg">Lautstärke</span>
+    </button>
+    <button class="antwort d" onclick="antwort('D')">
+        <span class="text-bg">Drama</span>
+    </button>
+    <button class="antwort e" onclick="antwort('E')">
+        <span class="text-bg">Meinungs-<br>verschiedenheiten</span>
+    </button>
+    <button class="antwort f" onclick="antwort('F')">
+        <span class="text-bg">Ungerechtigkeiten</span>
+    </button>
+    <button class="antwort g" onclick="antwort('G')">
+        <span class="text-bg">Schwer Reizbar</span>
+    </button>
+</div>
+
+<!-- Frage 5 -->
+<div id="frage5" class="frage">
+    <h3>Welche Superkraft hättest du gerne?</h3>
+    <button class="antwort a" onclick="antwort('A')">
+        <span class="text-bg">Unsichtbarkeit</span>
+    </button>
+    <button class="antwort b" onclick="antwort('B')">
+        <span class="text-bg">Fliegen</span>
+    </button>
+    <button class="antwort c" onclick="antwort('C')">
+        <span class="text-bg">Teleportation</span>
+    </button>
+    <button class="antwort d" onclick="antwort('D')">
+        <span class="text-bg">Telekinese</span>
+    </button>
+    <button class="antwort e" onclick="antwort('E')">
+        <span class="text-bg">Gedankenlesen</span>
+    </button>
+    <button class="antwort f" onclick="antwort('F')">
+        <span class="text-bg">Zeitmanipulation</span>
+    </button>
+</div>
+
+<!-- Auswertung -->
+<div id="ergebnis" class="frage">
+    <h3>Dein Style ist:</h3>
+    <img id="ergebnisBild" class="picture">
+    <h2 id="textErgebnis"></h2>
+    <div class="result">
+        <p id="beschreibung"></p>
+    </div>
+</div>
+
+<!-- Zur Startseite -->
+<a href="index.html">
+    <button class="back">Zurück</button>
+</a>
+
+<script src="Tiertest.js"></script>
+</body>
+</html>

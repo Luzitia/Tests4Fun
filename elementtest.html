@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tiertest</title>
+    <style>
+        .frage {
+            display: none;
+        }
+        .sichtbar {
+            display: block;
+        }
+    </style>
+        <link rel="stylesheet" href="elementtest.css">
+</head>
+
+
+<body>
+<div id="headline" class="hl">
+    <h1>Welches Element passt am besten zu dir?</h1>
+</div>
+
+<!-- Frage 1 -->
+<div id="frage1" class="frage sichtbar">
+    <h3>Wie startest du am häufigsten in den Tag?</h3>
+    <button class="antwort a" onclick="antwort('A')">
+        <span class="text-bg">Energiegeladen</span>
+    </button>
+    <button class="antwort b" onclick="antwort('B')">
+        <span class="text-bg">Müde</span>
+    </button>
+    <button class="antwort c" onclick="antwort('C')">
+        <span class="text-bg">Entspannt</span>
+    </button>
+    <button class="antwort d" onclick="antwort('D')">
+        <span class="text-bg">Hektisch</span>
+    </button>
+    <button class="antwort e" onclick="antwort('E')">
+        <span class="text-bg">Unmotiviert</span>
+    </button>
+    <button class="antwort f" onclick="antwort('F')">
+        <span class="text-bg">Produktiv</span>
+    </button>
+</div>
+
+<!-- Frage 2 -->
+<div id="frage2" class="frage">
+    <h3>Welches Gebiet interessiert dich am meisten?</h3>
+    <button class="antwort a" onclick="antwort('A')">
+        <span class="text-bg">Sport</span>
+    </button>
+    <button class="antwort b" onclick="antwort('B')">
+        <span class="text-bg">Musik</span>
+    </button>
+    <button class="antwort c" onclick="antwort('C')">
+        <span class="text-bg">Kunst</span>
+    </button>
+    <button class="antwort d" onclick="antwort('D')">
+        <span class="text-bg">Technik</span>
+    </button>
+    <button class="antwort e" onclick="antwort('E')">
+        <span class="text-bg">Wissenschaft</span>
+    </button>
+    <button class="antwort f" onclick="antwort('F')">
+        <span class="text-bg">Keins</span>
+    </button>
+</div>
+
+<!-- Frage 3 -->
+<div id="frage3" class="frage">
+    <h3>Was ist deine Love-Language?</h3>
+    <button class="antwort a" onclick="antwort('A')">
+        <span class="text-bg">Körperkontakt</span>
+    </button>
+    <button class="antwort b" onclick="antwort('B')">
+        <span class="text-bg">Geschenke</span>
+    </button>
+    <button class="antwort c" onclick="antwort('C')">
+        <span class="text-bg">Zeitverbringen</span>
+    </button>
+    <button class="antwort d" onclick="antwort('D')">
+        <span class="text-bg">Komplimente</span>
+    </button>
+    <button class="antwort e" onclick="antwort('E')">
+        <span class="text-bg">Unterstützung</span>
+    </button>
+</div>
+
+<!-- Frage 4 -->
+<div id="frage4" class="frage">
+    <h3>Wie reagierst du auf Probleme?</h3>
+    <button class="antwort a" onclick="antwort('A')">
+        <span class="text-bg">Gestresst</span>
+    </button>
+    <button class="antwort b" onclick="antwort('B')">
+        <span class="text-bg">Strategisch</span>
+    </button>
+    <button class="antwort c" onclick="antwort('C')">
+        <span class="text-bg">Vermeidend</span>
+    </button>
+    <button class="antwort d" onclick="antwort('D')">
+        <span class="text-bg">Akzeptierend</span>
+    </button>
+    <button class="antwort e" onclick="antwort('E')">
+        <span class="text-bg">Hilfe suchend</span>
+    </button>
+    <button class="antwort f" onclick="antwort('F')">
+        <span class="text-bg">Unterschiedlich</span>
+    </button>
+</div>
+
+<!-- Frage 5 -->
+<div id="frage5" class="frage">
+    <h3>Was ist dein Kommunikationsstil?</h3>
+    <button class="antwort a" onclick="antwort('A')">
+        <span class="text-bg">Direkt</span>
+    </button>
+    <button class="antwort b" onclick="antwort('B')">
+        <span class="text-bg">Humorvoll/Verspielt</span>
+    </button>
+    <button class="antwort c" onclick="antwort('C')">
+        <span class="text-bg">Still/Ruhig</span>
+    </button>
+    <button class="antwort d" onclick="antwort('D')">
+        <span class="text-bg">Sarkastisch</span>
+    </button>
+    <button class="antwort e" onclick="antwort('E')">
+        <span class="text-bg">Gesprächig</span>
+    </button>
+    <button class="antwort f" onclick="antwort('F')">
+        <span class="text-bg">Durcheinander</span>
+    </button>
+</div>
+
+<!-- Auswertung -->
+<div id="ergebnis" class="frage">
+    <h3>Dein Style ist:</h3>
+    <img id="ergebnisBild" class="picture">
+    <h2 id="textErgebnis"></h2>
+    <div class="result">
+        <p id="beschreibung"></p>
+    </div>
+</div>
+
+<!-- Zur Startseite -->
+<a href="index.html">
+    <button class="back">Zurück</button>
+</a>
+
+<script src="Elementtest.js"></script>
+</body>
+</html>

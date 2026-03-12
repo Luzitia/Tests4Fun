@@ -1,0 +1,157 @@
+body {
+    background-color: #f3fbff;
+}
+
+/* Überschriften */
+
+h1 {
+    font-family: Garmond, serif;
+    font-size: 50px;
+    color: #f3fbff;
+}
+
+.hl {
+    background-color: #90b4da;
+    min-width: 160px;
+    height: 130px;
+    margin-top: 40px;
+    text-align: center;
+    border: #ffffff solid 4px;
+}
+.transparenter-hintergrund{
+    background-color: transparent;
+}
+
+h3 {
+    font-family: Garmond, serif;
+    font-size: 30px;
+    color: #90b4da;
+}
+
+/*Texthintergrund*/
+.text-bg {
+    background-color: rgba(0, 0, 0, 0.45); /* leicht transparent */
+    padding: 4px 8px;
+    border-radius: 6px;
+    display: inline-block;
+}
+
+/* Fragen + Bilder zsm */
+.frage {
+    text-align: center;
+    margin-top: 40px;
+}
+.antwort {
+    width: 180px;
+    height: 220px;
+    border: none;
+    border-radius: 12px;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    font-family: Garamond, serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 160px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#frage1 .antwort.a { background-image: url("img/dunkel.png"); }
+#frage1 .antwort.b { background-image: url("img/pastell.png"); }
+#frage1 .antwort.c { background-image: url("img/klassisch.png"); }
+#frage1 .antwort.d { background-image: url("img/erde.png"); }
+#frage1 .antwort.e { background-image: url("img/bunt.png"); }
+#frage1 .antwort.f { background-image: url("img/neon.png"); }
+
+#frage2 .antwort.a { background-image: url("img/plüsch.jpeg"); }
+#frage2 .antwort.b { background-image: url("img/trenchcoat.jpg"); }
+#frage2 .antwort.c { background-image: url("img/jeans.jpg"); }
+#frage2 .antwort.d { background-image: url("img/fell.jpg"); }
+#frage2 .antwort.e { background-image: url("img/leder.jpg"); }
+
+#frage3 .antwort.a { background-image: url("img/sehrviel.jpeg"); }
+#frage3 .antwort.b { background-image: url("img/viel.jpeg"); }
+#frage3 .antwort.c { background-image: url("img/moderat.jpg"); }
+#frage3 .antwort.d { background-image: url("img/bisschen.jpg"); }
+#frage3 .antwort.e { background-image: url("img/wenig.jpg"); }
+
+#frage4 .antwort.a { background-image: url("img/lederhose.jpg"); }
+#frage4 .antwort.b { background-image: url("img/skinny.jpg"); }
+#frage4 .antwort.c { background-image: url("img/straight.jpeg"); }
+#frage4 .antwort.d { background-image: url("img/anzug.jpeg"); }
+#frage4 .antwort.e { background-image: url("img/schlag.jpg"); }
+#frage4 .antwort.f { background-image: url("img/baggy.jpg"); }
+
+#frage5 .antwort.a { background-image: url("img/netz.jpg"); }
+#frage5 .antwort.b { background-image: url("img/mitaine.jpg"); }
+#frage5 .antwort.c { background-image: url("img/haarreif.jpg"); }
+#frage5 .antwort.d { background-image: url("img/schal.jpg"); }
+#frage5 .antwort.e { background-image: url("img/gürtel.jpg"); }
+#frage5 .antwort.f { background-image: url("img/sonne.jpg"); }
+#frage5 .antwort.g { background-image: url("img/cappy.jpg"); }
+
+.antwort:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgb(144, 180, 218);
+}
+
+/* Zurück */
+
+.back {
+    background-color: #90b4da;
+    color: #ffffff;
+    font-family: Garamond, serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    display: block;
+    margin: 40px auto;   /* sorgt für Zentrierung */
+    cursor: pointer;
+}
+
+.back:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgb(185, 206, 236);
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Ergebnis */
+
+.picture{
+    width: 700px;
+    height: 600px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.result{
+    background-color: #ffffff;
+    color: #90b4da;
+    width: 60%;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 10px;
+    border: 3px solid #90b4da;
+    font-family: Garamond, serif;
+    font-size: 18px;
+}
+
+#textErgebnis{
+    background-color: #90b4da;
+    color: #f3fbff;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    display: table;
+    text-align: center;
+    padding: 15px 35px;
+    margin: 20px auto;
+    border-radius: 10px;
+    text-transform: uppercase;
+    box-shadow: 0 0 15px rgb(144, 180, 218);
+}

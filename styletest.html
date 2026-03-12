@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Styletest</title>
+    <style>
+        .frage {
+            display: none;
+        }
+        .sichtbar {
+            display: block;
+        }
+    </style>
+        <link rel="stylesheet" href="styletest.css">
+</head>
+
+<body>
+<div id="headline" class="hl">
+    <h1>Welchen Style hast du?</h1>
+</div>
+
+    <!-- Frage 1 -->
+    <div id="frage1" class="frage sichtbar">
+        <h3>Welche Farbe dominiert deinen Kleiderschrank?</h3>
+        <button class="antwort a" onclick="antwort('A')">
+            <span class="text-bg">Dunkel</span>
+        </button>
+        <button class="antwort b" onclick="antwort('B')">
+            <span class="text-bg">Pastell</span>
+        </button>
+        <button class="antwort c" onclick="antwort('C')">
+            <span class="text-bg">Klassisch</span>
+        </button>
+        <button class="antwort d" onclick="antwort('D')">
+            <span class="text-bg">Erdtöne</span>
+        </button>
+        <button class="antwort e" onclick="antwort('E')">
+            <span class="text-bg">Bunt</span>
+        </button>
+        <button class="antwort f" onclick="antwort('F')">
+            <span class="text-bg">Kräftig</span>
+        </button>
+    </div>
+
+    <!-- Frage 2 -->
+    <div id="frage2" class="frage">
+        <h3>Welche Jacke kommt deiner Lieblingsjacken am nächsten?</h3>
+        <button class="antwort a" onclick="antwort('A')">
+            <span class="text-bg">Flauschige/Plüschjacke</span>
+        </button>
+        <button class="antwort b" onclick="antwort('C')">
+            <span class="text-bg">Trenchcoat</span>
+        </button>
+        <button class="antwort c" onclick="antwort('D')">
+            <span class="text-bg">Jeansjacke</span>
+        </button>
+        <button class="antwort d" onclick="antwort('E')">
+            <span class="text-bg">mit Fellkapuze</span>
+        </button>
+        <button class="antwort e" onclick="antwort('F')">
+            <span class="text-bg">Lederjacke</span>
+        </button>
+    </div>
+
+    <!-- Frage 3 -->
+    <div id="frage3" class="frage">
+        <h3>Welche Menge an Schmuck trägst du für gewöhnlich?</h3>
+        <button class="antwort a" onclick="antwort('A')">
+            <span class="text-bg">Sehr viel</span>
+        </button>
+        <button class="antwort b" onclick="antwort('B')">
+            <span class="text-bg">Viel</span>
+        </button>
+        <button class="antwort c" onclick="antwort('C')">
+            <span class="text-bg">Moderat</span>
+        </button>
+        <button class="antwort d" onclick="antwort('D')">
+            <span class="text-bg">Ein bisschen</span>
+        </button>
+        <button class="antwort e" onclick="antwort('E')">
+            <span class="text-bg">Sehr wenig/Keinen</span>
+        </button>
+    </div>
+
+    <!-- Frage 4 -->
+    <div id="frage4" class="frage">
+        <h3>Welche Art von Hose trägst du am häufigsten?</h3>
+        <button class="antwort a" onclick="antwort('A')">
+            <span class="text-bg">Lederhose</span>
+        </button>
+        <button class="antwort b" onclick="antwort('B')">
+            <span class="text-bg">Skinny Jeans</span>
+        </button>
+        <button class="antwort c" onclick="antwort('C')">
+            <span class="text-bg">Straight Leg Jeans</span>
+        </button>
+        <button class="antwort d" onclick="antwort('D')">
+            <span class="text-bg">Stoffhose/Anzughose</span>
+        </button>
+        <button class="antwort e" onclick="antwort('E')">
+            <span class="text-bg">Schlaghose</span>
+        </button>
+        <button class="antwort f" onclick="antwort('F')">
+            <span class="text-bg">Baggy Jeans</span>
+        </button>
+    </div>
+
+    <!-- Frage 5 -->
+    <div id="frage5" class="frage">
+        <h3>Welche Accessoires gefallen dir am meisten?</h3>
+        <button class="antwort a" onclick="antwort('A')">
+            <span class="text-bg">Netzstrumpfhose</span>
+        </button>
+        <button class="antwort b" onclick="antwort('B')">
+            <span class="text-bg">Mitaine</span>
+        </button>
+        <button class="antwort c" onclick="antwort('C')">
+            <span class="text-bg">Haarreif/Schleife</span>
+        </button>
+        <button class="antwort d" onclick="antwort('D')">
+            <span class="text-bg">Schal</span>
+        </button>
+        <button class="antwort e" onclick="antwort('E')">
+            <span class="text-bg">Gürtel</span>
+        </button>
+        <button class="antwort f" onclick="antwort('F')">
+            <span class="text-bg">Sonnenbrille</span>
+        </button>
+        <button class="antwort g" onclick="antwort('G')">
+            <span class="text-bg">Cappy</span>
+        </button>
+    </div>
+
+    <!-- Auswertung -->
+    <div id="ergebnis" class="frage">
+        <h3>Dein Style ist:</h3>
+        <img id="ergebnisBild" class="picture">
+        <h2 id="textErgebnis"></h2>
+        <div class="result">
+            <p id="beschreibung"></p>
+        </div>
+    </div>
+
+    <!-- Zur Startseite -->
+    <a href="index.html">
+        <button class="back">Zurück</button>
+    </a>
+
+    <script src="Styletest.js"></script>
+</body>
+</html>

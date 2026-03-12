@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="de" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Farbtest</title>
+    <style>
+        .frage {
+            display: none;
+        }
+        .sichtbar {
+            display: block;
+        }
+    </style>
+        <link rel="stylesheet" href="farbtest.css">
+</head>
+
+<body>
+<div id="headline" class="hl">
+    <h1>Welche Farbe bist du?</h1>
+</div>
+
+<!-- Frage 1 -->
+<div id="frage1" class="frage sichtbar">
+    <h3>Was ist dein Sozialverhalten?</h3>
+    <button class="antwort a" onclick="antwort('A')">
+        <span class="text-bg">Sehr Extrovertiert</span>
+    </button>
+    <button class="antwort b" onclick="antwort('B')">
+        <span class="text-bg">Eher extrovertiert</span>
+    </button>
+    <button class="antwort c" onclick="antwort('C')">
+        <span class="text-bg">Ambivertiert</span>
+    </button>
+    <button class="antwort d" onclick="antwort('D')">
+        <span class="text-bg">Eher Introvertiert</span>
+    </button>
+    <button class="antwort e" onclick="antwort('E')">
+        <span class="text-bg">Sehr Introvertiert</span>
+    </button>
+</div>
+
+<!-- Frage 2 -->
+<div id="frage2" class="frage">
+    <h3>Welches positive Wort beschreibt dich am meisten?</h3>
+    <button class="antwort a" onclick="antwort('A')">
+        <span class="text-bg">Leidenschaftlich</span>
+    </button>
+    <button class="antwort b" onclick="antwort('B')">
+        <span class="text-bg">Kreativ</span>
+    </button>
+    <button class="antwort c" onclick="antwort('C')">
+        <span class="text-bg">Harmonisch</span>
+    </button>
+    <button class="antwort d" onclick="antwort('D')">
+        <span class="text-bg">Empathisch</span>
+    </button>
+    <button class="antwort e" onclick="antwort('E')">
+        <span class="text-bg">Energiegeladen</span>
+    </button>
+    <button class="antwort f" onclick="antwort('F')">
+        <span class="text-bg">Verantwortungs-<br>bewusst</span>
+    </button>
+</div>
+
+<!-- Frage 3 -->
+<div id="frage3" class="frage">
+    <h3>Welches negative Wort beschreibt dich am meisten?</h3>
+    <button class="antwort a" onclick="antwort('A')">
+        <span class="text-bg">Aggressiv/Impulsiv</span>
+    </button>
+    <button class="antwort b" onclick="antwort('B')">
+        <span class="text-bg">Kalt/Distanziert</span>
+    </button>
+    <button class="antwort c" onclick="antwort('C')">
+        <span class="text-bg">Eitel/Oberflächlich</span>
+    </button>
+    <button class="antwort d" onclick="antwort('D')">
+        <span class="text-bg">Neidisch/Eifersüchtig</span>
+    </button>
+    <button class="antwort e" onclick="antwort('E')">
+        <span class="text-bg">Kitschig/Realitätsfern</span>
+    </button>
+    <button class="antwort f" onclick="antwort('F')">
+        <span class="text-bg">Egoistisch/<br>Selbstsüchtig</span>
+    </button>
+    <button class="antwort g" onclick="antwort('G')">
+        <span class="text-bg">Zwiegespalten</span>
+    </button>
+</div>
+
+<!-- Frage 4 -->
+<div id="frage4" class="frage">
+    <h3>Welches Genre gefällt dir am meisten?</h3>
+    <button class="antwort a" onclick="antwort('A')">
+        <span class="text-bg">Mystery/Thriller</span>
+    </button>
+    <button class="antwort b" onclick="antwort('B')">
+        <span class="text-bg">Fantasy</span>
+    </button>
+    <button class="antwort c" onclick="antwort('C')">
+        <span class="text-bg">Sci-Fi</span>
+    </button>
+    <button class="antwort d" onclick="antwort('D')">
+        <span class="text-bg">Romance</span>
+    </button>
+    <button class="antwort e" onclick="antwort('E')">
+        <span class="text-bg">Sachlich/<br>Wissenschaftlich</span>
+    </button>
+    <button class="antwort f" onclick="antwort('F')">
+        <span class="text-bg">Horror</span>
+    </button>
+    <button class="antwort g" onclick="antwort('G')">
+        <span class="text-bg">Comedy/Familie</span>
+    </button>
+</div>
+
+<!-- Frage 5 -->
+<div id="frage5" class="frage">
+    <h3>Wenn du eine Landschaft malen müsstest, welche würdest du wählen?</h3>
+    <button class="antwort a" onclick="antwort('A')">
+        <span class="text-bg">Belebte Stadt</span>
+    </button>
+    <button class="antwort b" onclick="antwort('B')">
+        <span class="text-bg">Stürmisches Meer</span>
+    </button>
+    <button class="antwort c" onclick="antwort('C')">
+        <span class="text-bg">Friedliche Wiese</span>
+    </button>
+    <button class="antwort d" onclick="antwort('D')">
+        <span class="text-bg">Wilder Dschungel</span>
+    </button>
+    <button class="antwort e" onclick="antwort('E')">
+        <span class="text-bg">Majestätischer Berg</span>
+    </button>
+    <button class="antwort f" onclick="antwort('F')">
+        <span class="text-bg">Stille Wüste</span>
+    </button>
+    <button class="antwort g" onclick="antwort('G')">
+        <span class="text-bg">Exotische Insel</span>
+    </button>
+</div>
+
+<!-- Auswertung -->
+<div id="ergebnis" class="frage">
+    <h3>Dein Style ist:</h3>
+    <img id="ergebnisBild" class="picture">
+    <h2 id="textErgebnis"></h2>
+    <div class="result">
+        <p id="beschreibung"></p>
+    </div>
+</div>
+
+<!-- Zur Startseite -->
+<a href="index.html">
+    <button class="back">Zurück</button>
+</a>
+
+<script src="Farbtest.js"></script>
+
+</body>
+</html>
