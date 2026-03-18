@@ -74,14 +74,14 @@ function ergebnisAnzeigen() {
 
 
     const ergebnisTexte = {
-        GO: "Goth.",
-        KA: "Kawaii.",
-        CG: "Clean Girl.",
-        OM: "Old Money.",
-        AC: "Dark/Light Academia.",
-        V: "Vintage.",
-        Y: "Y2K.",
-        SW: "Streetwear."
+        GO: "Goth",
+        KA: "Kawaii",
+        CG: "Clean Girl",
+        OM: "Old Money",
+        AC: "Dark/Light Academia",
+        V: "Vintage",
+        Y: "Y2K",
+        SW: "Streetwear"
     };
 
     const beschreibungTexte = {

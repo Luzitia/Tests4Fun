@@ -79,26 +79,26 @@ function ergebnisAnzeigen() {
 
     const ergebnisTexte = {
         RO: "Rot",
-        GE: "Gelb.",
-        GR: "Grün.",
-        BL: "Blau.",
-        LI: "Lila.",
-        RS: "Rosa.",
-        BR: "Braun.",
-        S: "Schwarz.",
-        W: "Weiß."
+        GE: "Gelb",
+        GR: "Grün",
+        BL: "Blau",
+        LI: "Lila",
+        RS: "Rosa",
+        BR: "Braun",
+        S: "Schwarz",
+        W: "Weiß"
     };
 
     const beschreibungTexte = {
-        RO: "bnaeb<fwuqisoknkjbfhfijdoKak<n.",
-        GE: "bgru<eiwOJIg<fbuifwiqopf<dngjboqdkoafk.",
-        GR: "ish<uguhdwiabdh<uwiq9iwjdfgfwefghg.",
-        BL: "owifejhijwkdkod<knfjbw09wuerewodjfnkdjv mml, s.",
-        LI: "owfaeigsjbijew0odofeigjbiwoqspkdosknfdjvfopakldmksdmf.",
-        RS: "ofgnbuifjwopkojfbjijfwofjeigjbfgdfk.",
-        BR: "jehwjqowijhhjiqokswdfkdjjndsokdfdnsjjdospdksfdk.",
-        S: "g708bu6e >EISb feuhfueh<fihidawiJaefnklaeg.",
-        W: "rfwnabsdh friooekofkgjf kml,lpdüölpskkmvn,xghwa."
+        RO: "Rot steht für eine starke und intensive Persönlichkeit. Diese Farbe verbindet man mit Leidenschaft, Liebe und Energie. Menschen, die mit Rot verbunden werden, wirken oft kraftvoll, mutig und voller Tatendrang. Sie bringen Wärme und Stärke in ihre Umgebung und gehen Herausforderungen aktiv an. Gleichzeitig kann Rot auch eine Seite von Aggression oder Warnung zeigen – eine Persönlichkeit, die sehr intensiv fühlt und handelt.",
+        GE: "Gelb symbolisiert eine fröhliche und kreative Persönlichkeit. Diese Farbe steht für Freude, Optimismus und Hoffnung. Gelbe Persönlichkeiten wirken oft offen, positiv und voller Ideen. Sie bringen Wärme und Kreativität in ihr Umfeld und denken häufig rational und lösungsorientiert. Gleichzeitig kann Gelb auch eine Schattenseite haben, in der Neid oder Missgunst entstehen können.",
+        GR: "Grün steht für eine ruhige und ausgeglichene Persönlichkeit. Diese Farbe wird mit Natur, Erneuerung und Entspannung verbunden. Menschen mit grünen Eigenschaften suchen oft Stabilität, Besinnlichkeit und Ausgeglichenheit. Sie wirken harmonisch und hoffen auf ein gutes Gleichgewicht im Leben. Allerdings kann Grün manchmal auch eine Seite von Gier oder Egoismus zeigen.",
+        BL: "Blau beschreibt eine ruhige und vertrauensvolle Persönlichkeit. Die Farbe wirkt beruhigend und steht für Harmonie, Freundschaft und Frieden. Menschen mit blauen Eigenschaften gelten häufig als intelligent, zuverlässig und vertrauenswürdig. Gleichzeitig kann Blau auch Gefühle wie Traurigkeit oder Einsamkeit ausdrücken, weil solche Persönlichkeiten oft sehr tief fühlen und nachdenken.",
+        LI: "Lila steht für eine kreative und spirituelle Persönlichkeit. Diese Farbe wird mit Mystik, Ruhe und Entspannung verbunden. Menschen mit einer lilafarbenen Persönlichkeit sind oft kreativ, sensibel und nachdenklich. Lila kann auch für Luxus und etwas Besonderes stehen. Gleichzeitig kann diese Persönlichkeit manchmal eitel wirken oder innerlich einen Zwiespalt erleben.",
+        RS: "Rosa symbolisiert eine sanfte und mitfühlende Persönlichkeit. Diese Farbe steht für Romantik, Sensibilität und Mitgefühl. Menschen mit rosa Eigenschaften bringen Zuversicht, Hoffnung und Balance in ihr Umfeld und wirken oft sehr freundlich und einfühlsam. Manchmal kann Rosa jedoch auch als oberflächlich, kitschig oder realitätsfern wahrgenommen werden.",
+        BR: "Braun beschreibt eine bodenständige und zuverlässige Persönlichkeit. Diese Farbe steht für Robustheit, Gemütlichkeit und Verlässlichkeit. Menschen mit braunen Eigenschaften wirken stabil und ruhig und schätzen Sicherheit und Beständigkeit. Gleichzeitig kann Braun auch mit Langeweile oder Sturheit verbunden werden.",
+        S: "Schwarz symbolisiert eine starke und dominante Persönlichkeit. Die Farbe steht für Macht, Eleganz und Respekt. Schwarze Persönlichkeiten wirken oft mysteriös, geheimnisvoll und führend. Sie strahlen Autorität aus und behalten häufig die Kontrolle. Gleichzeitig kann Schwarz auch mit Trauer oder Bosheit verbunden werden.",
+        W: "Weiß steht für eine klare und reine Persönlichkeit. Diese Farbe symbolisiert Reinheit, Unschuld und Neuanfang. Menschen mit weißen Eigenschaften wirken oft friedlich, ruhig und hoffnungsvoll. Sie schätzen Klarheit und Ordnung. Gleichzeitig kann Weiß manchmal auch kalt oder distanziert wirken."
     };
 
     const bilder = {

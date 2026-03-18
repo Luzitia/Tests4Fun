@@ -84,37 +84,37 @@ function ergebnisAnzeigen() {
 
 
     const ergebnisTexte = {
-        AD: "Adler.",
-        TA: "Taube.",
-        Q: "Qualle.",
-        DE: "Delfin.",
-        HU: "Hund.",
-        KA: "Katze.",
-        PF: "Pferd.",
-        ER: "Erdmännchen.",
-        LO: "Löwe.",
-        EL: "Elefant.",
-        RO: "Robbe.",
-        PI: "Pinguin.",
-        PA: "Panda.",
-        AF: "Affe."
+        AD: "Adler",
+        TA: "Taube",
+        Q: "Qualle",
+        DE: "Delfin",
+        HU: "Hund",
+        KA: "Katze",
+        PF: "Pferd",
+        ER: "Erdmännchen",
+        LO: "Löwe",
+        EL: "Elefant",
+        RO: "Robbe",
+        PI: "Pinguin",
+        PA: "Panda",
+        AF: "Affe"
     };
 
     const beschreibungTexte = {
-        AD: "bnaeb<fwuqisoknkjbfhfijdoKak<n.",
-        TA: "bgru<eiwOJIg<fbuifwiqopf<dngjboqdkoafk.",
-        Q: "ish<uguhdwiabdh<uwiq9iwjdfgfwefghg.",
-        DE: "owifejhijwkdkod<knfjbw09wuerewodjfnkdjv mml, s.",
-        HU: "owfaeigsjbijew0odofeigjbiwoqspkdosknfdjvfopakldmksdmf.",
-        KA: "jehwjqowijhhjiqokswdfkdjjndsokdfdnsjjdospdksfdk.",
-        PF: "g708bu6e >EISb feuhfueh<fihidawiJaefnklaeg.",
-        ER: "rfwnabsdh friooekofkgjf kml,lpdüölpskkmvn,xghwa.",
-        LO: "FINGURHE)R=KOAJFSYJBU)GKJOPDAKFSDKBJOGEKFWPLE",
-        EL: "FGBURIFJWOFENJFBFLFNJOLKNFDKJNFKFLDVMBKBNKFLM",
-        RO: "PBONIGFJWODQDKPOFSNDIJOKWDPKFOJDNFBJFJOKDPPKFDNK",
-        PI: "POGKKFOS)(/%()IU&%HJTKGFKGNKOKKDANYVB;L;",
-        PA: "OIBUGHIJFI=WFOEJIBIJFOKODVKN",
-        AF: "POINBIFJDKPKSVDNKBVMCL;VLMK BKMVKPFL;VLMD;"
+        AD: "Der Adler wirkt selbstbewusst und hat ein starkes Auftreten. Er liebt Überblick und Struktur. Er ist sehr Zielstrebig und fühlt sich am wohlsten, wenn er frei entscheiden kann. Ungerechtigkeit und Ineffezienz reizen ihn schnell, denn er hat ein starkes inneres Wertegefühl. Er strebt nach Freiheit und Weitsicht.",
+        TA: "Die Taube macht einen ruhigen, schüchternen ersten Eindruck. Sie liebt Harmonie und Drama sowie laute Konflikte. Statt im Mittelpunkt zu stehen, beobachtet sie lieber aus dem Hintergrund und sorgt für Ausgleich. Sie wirkt unscheinbar, besitzt aber eine stille innere Stärke.",
+        Q: "Die Qualle ist sensibel, introvertiert und sehr feinfühlig. Sie reagiert stark auf Reizüberflutung, besonders auf Lautstärke und Chaos. Lieber bleibt sie im Hintergrund und bewegt sich sanft durch Situationen, ohne aufzufallen. Ihr innerer Wunsch ist Dinge aus der Distanz zu beeinflussen.",
+        DE: "Der Delfin ist offen, intelligent und Humorvoll. Er geht auf andere zu ist sozial und ist schwer zu reizen. Trotz seiner Verspieltheit besitzt er eine hohe Emotionale Inteligenz und ein gutes Gespür für sein Umfeld. Er hat eine empathische, robuste und belastbare Natur.",
+        HU: "Der Hund ist loyal, ehrlich und auf Gerechtigkeit bedacht. Respeklosigkeit oder Ungerechtigkeiten treffen ihn besonders, da er sehr werteorientiert ist. Er beschützt die Menschen, die ihm wichtig sind und gibt selten auf. Er hat eine zähe und treue Persönlichkeit.",
+        KA: "Die Katze wirkt elegant, selbstsicher und manchmal leicht arrogant. Sie liebt Ruhe, Kontrolle und ihre eigenen Regeln. In Diskussionen bleibt sie stur und überzeugt von sich selbst. Sie hat eine geheimnisvolle und unabhängige Art.",
+        PF: "Das Pferd steht für Zuverlässigkeit, Freiheit und stille Stärke. Unpünktlichkeit und Chaos bringen es schnell aus dem Gleichgewicht, denn es schätzt Struktur. Es wirkt Selbsbewusst, ohne dominant zu sein und trägt viel Verantwortung . Es hat eine natürliche Stärke und Ausdauer.",
+        ER: "Das Erdmännchen ist aufmerksam, sozial und stark gemeinschaftsorientert. Es reagiert sensibel auf Drama und Ungerechtigkeit, da es Ordnung und Fairness braucht. Trot seiner Wachsamkeit besitzt es Humor und Neugier. Es hat eine schnelle, reaktionsfreudige Art.",
+        LO: "Der Löwe tritt stolz, dominant und selbstbewusst aus. Respekt ist für ihn essenziell und Ungerechtigkeit duldet er nicht. Er übernimmt gerne die Rolle des Beschützers und des Anführers. Er hat eine kraftvolle und königliche Ausstrahlung.",
+        EL: "Der Elefant wirkt ruhig, weise und tief empathisch. Er vergisst Unrecht nicht, handelt aber bedacht und gerecht. Sein starkes Gedächtnis und seine emotionale Tiefe machen ihn zu einer stabilen Persönlichkeit. Er hat eine reflektierende Natur.",
+        RO: "Die Robbe ist locker, verspielt und erstaunlich gelassen. Sie lässt sich nicht leicht provozieren und geht mit vielen Dingen humorvoll um. Gemeinschaft und Nähe sind ihr sehr wichtig. Sie ist anpassungsfähig und hat eine innere Ruhe.",
+        PI: "Der Pinguin ist sozial, zuverlässig und liebt klare Strukturen. Drama und unnötiger Stress können ihn aus dem Konzept bringen. Auch wenn er manchmal tollpatschig wirkt, ist er äußerst loyal und teamorientiert. Seine Stärke liegt in Zusammenhalt und Beständigkeit.",
+        PA: "Der Panda wirkt sanft, ruhig und eher schüchtern. Er braucht Harmonie und zieht sich bei Lautstärke oder Stress zurück. Trotz seiner Zurückhaltung besitzt er eine innere Gelassenheit. Er hat ein Bedürfnis nach Ruhe und Regeneration.",
+        AF: "Der Affe ist neugierig, schlau und sehr humorvoll. Er liebt Diskussionen, neue Eindrücke und Bewegung, kann dabei aber auch chaotisch wirken. Meinungsverschiedenheiten reizen ihn, weil er gerne Recht behält. Er besitzt eine rastlose und spielerische Energie."
     };
 
     const bilder = {

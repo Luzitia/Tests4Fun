@@ -85,15 +85,15 @@ function ergebnisAnzeigen() {
     };
 
     const beschreibungTexte = {
-        FE: "bnaeb<fwuqisoknkjbfhfijdoKak<n.",
-        WA: "bgru<eiwOJIg<fbuifwiqopf<dngjboqdkoafk.",
-        ER: "ish<uguhdwiabdh<uwiq9iwjdfgfwefghg.",
-        LU: "owifejhijwkdkod<knfjbw09wuerewodjfnkdjv mml, s.",
-        EI: "owfaeigsjbijew0odofeigjbiwoqspkdosknfdjvfopakldmksdmf.",
-        LI: "jehwjqowijhhjiqokswdfkdjjndsokdfdnsjjdospdksfdk.",
-        S: "g708bu6e >EISb feuhfueh<fihidawiJaefnklaeg.",
-        EL: "rfwnabsdh friooekofkgjf kml,lpdüölpskkmvn,xghwa.",
-        Z: "OFJEGNIRBTIRGJEFWQPKWD§)($RZ(§)"
+        FE: "Das Element Feuer steht für Leidenschaft, Energie und starke Emotionen. Menschen mit viel Feuer in ihrer Persönlichkeit sind oft motiviert, mutig und voller Tatendrang. Sie handeln schnell, zeigen Begeisterung und können andere mit ihrer Energie anstecken. Gleichzeitig kann Feuer auch impulsiv wirken und manchmal zu Ungeduld oder Wut führen.",
+        WA: "Wasser symbolisiert Gefühle, Ruhe und Sensibilität. Menschen mit diesem Element sind häufig einfühlsam, ruhig und verständnisvoll. Sie können gut zuhören und haben ein starkes Gefühl für die Emotionen anderer. Wasser-Persönlichkeiten suchen Harmonie, können aber manchmal auch sehr nachdenklich oder emotional sein.",
+        ER: "Das Element Erde steht für Stabilität, Zuverlässigkeit und Bodenständigkeit. Menschen mit viel Erde wirken oft ruhig, verantwortungsbewusst und organisiert. Sie arbeiten strukturiert und sind sehr verlässlich. Gleichzeitig können sie manchmal etwas stur sein oder Veränderungen nur langsam akzeptieren.",
+        LU: "Luft steht für Freiheit, Bewegung und Kommunikation. Menschen mit diesem Element sind oft offen, neugierig und kreativ. Sie sprechen gerne mit anderen, haben viele Ideen und mögen Abwechslung. Manchmal können sie aber auch unruhig wirken oder sich schwer lange auf eine Sache konzentrieren.",
+        EI: "Eis symbolisiert Kontrolle, Ruhe und Nachdenklichkeit. Eis-Persönlichkeiten wirken oft ruhig, sachlich und überlegt. Sie behalten auch in schwierigen Situationen einen kühlen Kopf. Gleichzeitig können sie manchmal distanziert wirken oder ihre Gefühle weniger zeigen.",
+        LI: "Das Element Licht steht für Hoffnung, Positivität und Inspiration. Menschen mit viel Licht sind oft optimistisch, freundlich und motivierend für andere. Sie sehen häufig das Gute in Situationen und versuchen, anderen zu helfen. Manchmal können sie aber auch sehr idealistisch sein.",
+        S: "Schatten steht für Tiefe, Rückzug und innere Gedanken. Menschen mit diesem Element sind oft nachdenklich, ruhig und beobachten viel. Sie beschäftigen sich stark mit ihren eigenen Gedanken und Gefühlen. Gleichzeitig kann Schatten auch Unsicherheit oder das Bedürfnis nach Abstand von anderen bedeuten.",
+        EL: "Elektrizität symbolisiert Schnelligkeit, Ideenreichtum und starke Reaktionen. Menschen mit diesem Element sind oft spontan, kreativ und voller Energie. Sie reagieren schnell auf Situationen und denken häufig sehr aktiv. Manchmal können sie dadurch auch hektisch oder nervös wirken.",
+        Z: "Zeit steht für Planung, Strategie und langfristiges Denken. Menschen mit diesem Element überlegen oft genau, bevor sie handeln. Sie planen gerne, analysieren Situationen und denken an die Zukunft. Gleichzeitig kann diese Persönlichkeit manchmal zu viel nachdenken oder Entscheidungen hinauszögern."
     };
 
     const bilder = {
