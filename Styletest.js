@@ -85,14 +85,14 @@ function ergebnisAnzeigen() {
     };
 
     const beschreibungTexte = {
-        GO: "bnaeb<fwuqisoknkjbfhfijdoKak<n.",
-        KA: "bgru<eiwOJIg<fbuifwiqopf<dngjboqdkoafk.",
-        CG: "ish<uguhdwiabdh<uwiq9iwjdfgfwefghg.",
-        OM: "owifejhijwkdkod<knfjbw09wuerewodjfnkdjv mml, s.",
-        AC: "owfaeigsjbijew0odofeigjbiwoqspkdosknfdjvfopakldmksdmf.",
-        V: "jehwjqowijhhjiqokswdfkdjjndsokdfdnsjjdospdksfdk.",
-        Y: "g708bu6e >EISb feuhfueh<fihidawiJaefnklaeg.",
-        SW: "rfwnabsdh friooekofkgjf kml,lpdüölpskkmvn,xghwa."
+        GO: "Dieser Stil zeichnet sich durch schwarze Kleidung, markantes Make-up und auffällige Details aus. Spitze, Leder und silberner Schmuck unterstreichen den Look. Oft wirkt er geheimnisvoll, intensiv und bewusst anders.",
+        KA: "Pastelltöne, süße Prints und liebevolle Accessoires prägen diesen Stil. Schleifen, Rüschen und kleine Details machen den Look besonders. Er wirkt freundlich, weich und fast märchenhaft.",
+        CG: "Schlichte Schnitte, neutrale Farben und gepflegte Details bestimmen das Erscheinungsbild. Glatte Haare, dezentes Make-up und hochwertige Basics runden den Stil ab. Er wirkt ruhig, modern und mühelos.",
+        OM: "Klassische Schnitte, edle Stoffe und gedeckte Farben prägen den Look. Blazer, Hemden und feine Accessoires wirken hochwertig und zurückhaltend. Der Stil strahlt Ruhe, Klasse und Beständigkeit aus.",
+        AC: "Warme Braun- und Beigetöne oder dunkle Nuancen treffen auf klassische Kleidung wie Mäntel, Westen und Hemden. Der Look wirkt nostalgisch, strukturiert und inspiriert von alten Bibliotheken.",
+        V: "Kleidung aus vergangenen Jahrzehnten, besondere Muster und einzigartige Schnitte machen den Stil aus. Oft wirken die Outfits verspielt, kreativ und bewusst nicht modern. Jedes Teil erzählt eine eigene Geschichte.",
+        Y: "Crop-Tops, glänzende Stoffe und auffällige Farben prägen den Look. Accessoires wie kleine Taschen und auffälliger Schmuck gehören dazu. Der Stil wirkt jugendlich, selbstbewusst und ein bisschen nostalgisch.",
+        SW: "Oversized Kleidung, Sneaker und markante Logos bestimmen den Stil. Der Look ist entspannt, modern und oft von Trends inspiriert. Er wirkt cool, locker und alltagstauglich."
     };
 
     const bilder = {
